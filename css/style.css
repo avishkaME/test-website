@@ -41,10 +41,31 @@ header li{
   padding: 0 20px 0 20px;
 }
 
+header #branding{
+  float: left;
+}
+
 header #branding h1{
   margin: 0;
 }
 
 header nav{
   float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover{
+  color: #cccccc;
+  font-weight: bold;
+}
+
+/*showcase*/
+#showcase{
+  min-height: 400px;
+  background: url('../img/WebDesign.jpg') no-repeat;
 }
